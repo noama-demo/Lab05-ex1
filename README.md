@@ -48,9 +48,9 @@ $ git log --oneline --graph --branches --decorate
 $ cat print-lines/Program.cs
 ```
 
- - Undo the last commit in the master branch using (don't automatically commit):
+ - Undo the mistake commit in the master branch using "don't automatically commit":
 ```
-$ git revert HEAD -n
+$ git revert HEAD~2 -n
 ```
 
  - Check the file "print-lines/Program.cs" to see the rollback:
