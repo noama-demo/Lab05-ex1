@@ -50,7 +50,7 @@ $ cat print-lines/Program.cs
 
  - Undo the mistake commit in the master branch using "don't automatically commit":
 ```
-$ git revert HEAD~2 -n
+$ git revert a29e5e6 -n
 ```
 
  - Check the file "print-lines/Program.cs" to see the rollback:
