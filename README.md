@@ -78,7 +78,7 @@ $ cat print-lines/Program.cs
 
  - Apply the changes of the bugfix commit in the master branch:
 ```
-$ git cherry-pick bugfix
+$ git cherry-pick 5f764ac43
 ```
 
  - Check the file "print-lines/Program.cs" and see the fix:
